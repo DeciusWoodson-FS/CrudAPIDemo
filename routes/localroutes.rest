@@ -1,0 +1,27 @@
+GET http://localhost:8000/students
+
+###
+
+GET http://localhost:8000/students/692f1ccd936c4b9ff7235c39
+
+###
+
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+    "name": "Jinwoo",
+    "class": "DWA"
+}
+
+###
+DELETE http://localhost:8000/students/692f192a4e73b4fb27df5063
+
+###
+PATCH http://localhost:8000/students/692f1ccd936c4b9ff7235c39
+Content-Type: application/json
+
+{
+    "name": "Sung Jinwoo",
+    "class": "DWA"
+}
