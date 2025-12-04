@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./App.css";
 
+// Function and error handling
 function App() {
   const [students, setStudents] = useState(null);
   const [loading, setLoading] = useState(false);
